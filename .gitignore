@@ -1,4 +1,31 @@
+
+# Environnement Python
 .venv/
-.env
+venv/
 __pycache__/
+*.pyc
 .pytest_cache/
+
+# Fichiers macOS
+.DS_Store
+
+# Fichiers temporaires
+*.log
+
+# Variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Rapports générés automatiquement
+reports/*.md
+reports/*.png
+
+# Conserver le dossier reports
+!reports/.gitkeep
+
+# Configuration locale
+.vscode/
+.idea/
+
+
